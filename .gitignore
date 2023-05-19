@@ -1,0 +1,11 @@
+# Compiled binaries
+*.o
+*.out
+
+# Generated output files
+fort.13
+fort.60
+fort.130
+
+# Dolphin directory metadata file
+.directory

@@ -1,0 +1,7 @@
+      PROGRAM GET_DATE
+      CHARACTER(10) :: DAY
+      INTEGER :: VALUES(8)
+      CALL DATE_AND_TIME(values=VALUES)
+      WRITE(DAY,'(I4.4, "-", I2.2, "-", I2.2)') INT(VALUES(1)), INT(VALUES(2)), INT(VALUES(3))
+      WRITE(*, *) DAY
+      END PROGRAM GET_DATE

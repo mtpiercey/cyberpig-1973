@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "fortran-lang.linter-gfortran",
+        "ekibun.fortranbreaker",
+        "ms-vscode.cpptools"
+    ]
+}
